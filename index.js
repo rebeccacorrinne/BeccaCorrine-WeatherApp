@@ -6,8 +6,6 @@ function displayTemperature(response) {
   temperatureElement.innerHTML = temperature;
 }
 
-//weather api https://api.shecodes.io/weather/v1/current?query={query}&key={key}
-// weather key 5aebaf322a84ft22eb0f046oe39fc614
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
